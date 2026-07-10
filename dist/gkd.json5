@@ -7,5 +7,67 @@
   checkUpdateUrl: 'https://raw.githubusercontent.com/ajun0719/AJun-GKD/main/dist/gkd.version.json5',
   supportUri: '',
   apps: [
+    {
+      id: 'com.bsy.hz',
+      name: '韩站',
+      groups: [
+        {
+          key: 1,
+          name: '首页banner广告去除',
+          rules: {
+            matches: '[id=\"com.bsy.hz:id/iv_ad_close\"]'
+          }
+        },
+        {
+          key: 2,
+          name: '继续播放-自动点击',
+          rules: {
+            matches: '[id=\"com.bsy.hz:id/notify_ok_tv\"]'
+          }
+        },
+        {
+          key: 3,
+          name: '搜索页面顶部的banner广告跳过',
+          rules: {
+            matches: '[id=\"com.bsy.hz:id/unified_ad_close\"]'
+          }
+        },
+        {
+          key: 4,
+          name: '视频播放时，倒计时结束跳过',
+          rules: {
+            matches: '[id=\"com.bsy.hz:id/skip_tv\"]'
+          }
+        },
+        {
+          key: 5,
+          name: '首页弹窗',
+          rules: {
+            matches: '[id=\"com.bsy.hz:id/iv_close\"]'
+          }
+        },
+        {
+          key: 6,
+          name: '继续播放按钮点击',
+          rules: {
+            matches: '[id=\"com.bsy.hz:id/notify_ok_tv\"]'
+          }
+        },
+        {
+          key: 7,
+          name: '播放页面广告跳过',
+          rules: {
+            matches: '[id=\"com.bsy.hz:id/only_skip_tv\"]'
+          }
+        },
+        {
+          key: 8,
+          name: '播放暂停广告跳过',
+          rules: {
+            matches: '[id=\"com.bsy.hz:id/close_rl\"]'
+          }
+        }
+      ]
+    }
   ]
 }
