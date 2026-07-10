@@ -1,7 +1,7 @@
 {
   id: 233,
   name: '阿俊的GKD订阅',
-  version: 1,
+  version: 3,
   author: 'ajun',
   updateUrl: 'https://raw.githubusercontent.com/ajun0719/AJun-GKD/main/dist/gkd.json5',
   checkUpdateUrl: 'https://raw.githubusercontent.com/ajun0719/AJun-GKD/main/dist/gkd.version.json5',
