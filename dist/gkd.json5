@@ -66,6 +66,13 @@
           rules: {
             matches: '[id=\"com.bsy.hz:id/close_rl\"]'
           }
+        },
+        {
+          key: 9,
+          name: '播放界面的去领取奖励',
+          rules: {
+            matches: '[id=\"android:id/content\"] > FrameLayout > [desc=\"ad_content\"] > [desc=\"main_content\"] > [text=\"去领取奖励\"]'
+          }
         }
       ]
     }
