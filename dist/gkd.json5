@@ -1,7 +1,7 @@
 {
   id: 233,
   name: '阿俊的GKD订阅',
-  version: 2,
+  version: 1,
   author: 'ajun',
   updateUrl: 'https://raw.githubusercontent.com/ajun0719/AJun-GKD/main/dist/gkd.json5',
   checkUpdateUrl: 'https://raw.githubusercontent.com/ajun0719/AJun-GKD/main/dist/gkd.version.json5',
@@ -72,6 +72,13 @@
           name: '播放界面的去领取奖励',
           rules: {
             matches: '[id=\"android:id/content\"] > FrameLayout > [desc=\"ad_content\"] > [desc=\"main_content\"] > [text=\"去领取奖励\"]'
+          }
+        },
+        {
+          key: 10,
+          name: '播放界面的立即前往加速',
+          rules: {
+            matches: '[id=\"android:id/content\"] > FrameLayout > FrameLayout > FrameLayout > FrameLayout > FrameLayout > FrameLayout > FrameLayout > FrameLayout > WebView > WebView > View > View > View > View > View > View > View > View > [text=\"立即前往加速\"]'
           }
         }
       ]
