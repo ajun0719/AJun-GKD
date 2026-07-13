@@ -1,7 +1,7 @@
 {
   id: 233,
   name: '阿俊的GKD订阅',
-  version: 3,
+  version: 4,
   author: 'ajun',
   updateUrl: 'https://raw.githubusercontent.com/ajun0719/AJun-GKD/main/dist/gkd.json5',
   checkUpdateUrl: 'https://raw.githubusercontent.com/ajun0719/AJun-GKD/main/dist/gkd.version.json5',
@@ -93,7 +93,7 @@
         },
         {
           key: 11,
-          name: '来自快照的规则 19:44',
+          name: '点击广告按钮',
           rules: {
             matches: '[id=\"android:id/content\"] > LinearLayout > FrameLayout > FrameLayout > RelativeLayout > FrameLayout > FrameLayout > LinearLayout > FrameLayout'
           }
