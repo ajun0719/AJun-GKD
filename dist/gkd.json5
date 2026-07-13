@@ -1,7 +1,7 @@
 {
   id: 233,
   name: '阿俊的GKD订阅',
-  version: 6,
+  version: 7,
   author: 'ajun',
   updateUrl: 'https://raw.githubusercontent.com/ajun0719/AJun-GKD/main/dist/gkd.json5',
   checkUpdateUrl: 'https://raw.githubusercontent.com/ajun0719/AJun-GKD/main/dist/gkd.version.json5',
@@ -15,80 +15,70 @@
           key: 1,
           name: '首页banner广告去除',
           rules: {
-            matches: '[id=\"com.bsy.hz:id/iv_ad_close\"]',
-            fastQuery: false
+            matches: '[id=\"com.bsy.hz:id/iv_ad_close\"]'
           }
         },
         {
           key: 2,
           name: '继续播放-自动点击',
           rules: {
-            matches: '[id=\"com.bsy.hz:id/notify_ok_tv\"]',
-            fastQuery: false
+            matches: '[id=\"com.bsy.hz:id/notify_ok_tv\"]'
           }
         },
         {
           key: 3,
           name: '搜索页面顶部的banner广告跳过',
           rules: {
-            matches: '[id=\"com.bsy.hz:id/unified_ad_close\"]',
-            fastQuery: false
+            matches: '[id=\"com.bsy.hz:id/unified_ad_close\"]'
           }
         },
         {
           key: 4,
           name: '视频播放时，倒计时结束跳过',
           rules: {
-            matches: '[id=\"com.bsy.hz:id/skip_tv\"]',
-            fastQuery: false
+            matches: '[id=\"com.bsy.hz:id/skip_tv\"]'
           }
         },
         {
           key: 5,
           name: '首页弹窗',
           rules: {
-            matches: '[id=\"com.bsy.hz:id/iv_close\"]',
-            fastQuery: false
+            matches: '[id=\"com.bsy.hz:id/iv_close\"]'
           }
         },
         {
           key: 6,
           name: '继续播放按钮点击',
           rules: {
-            matches: '[id=\"com.bsy.hz:id/notify_ok_tv\"]',
-            fastQuery: false
+            matches: '[id=\"com.bsy.hz:id/notify_ok_tv\"]'
           }
         },
         {
           key: 7,
           name: '播放页面广告跳过',
           rules: {
-            matches: '[id=\"com.bsy.hz:id/only_skip_tv\"]',
-            fastQuery: false
+            matches: '[id=\"com.bsy.hz:id/only_skip_tv\"]'
           }
         },
         {
           key: 8,
           name: '播放暂停广告跳过',
           rules: {
-            matches: '[id=\"com.bsy.hz:id/close_rl\"]',
-            fastQuery: false
+            matches: '[id=\"com.bsy.hz:id/close_rl\"]'
           }
         },
         {
           key: 9,
           name: '播放界面的去领取奖励',
           rules: {
-            matches: '[id=\"android:id/content\"] > FrameLayout > [desc=\"ad_content\"] > [desc=\"main_content\"] > [text=\"去领取奖励\"]',
-            fastQuery: false
+            matches: '[id=\"android:id/content\"] > FrameLayout > [desc=\"ad_content\"] > [desc=\"main_content\"] > [text=\"去领取奖励\"]'
           }
         },
         {
           key: 10,
           name: '播放界面的立即前往加速',
           rules: {
-            matches: '[id=\"android:id/content\"] > FrameLayout > FrameLayout > FrameLayout > FrameLayout > FrameLayout > FrameLayout > FrameLayout > FrameLayout > WebView > WebView > View > View > View > View > View > View > View > View > [text=\"立即前往加速\"]',
-            fastQuery: false
+            matches: '[id=\"android:id/content\"] > FrameLayout > FrameLayout > FrameLayout > FrameLayout > FrameLayout > FrameLayout > FrameLayout > FrameLayout > WebView > WebView > View > View > View > View > View > View > View > View > [text=\"立即前往加速\"]'
           }
         },
         {
