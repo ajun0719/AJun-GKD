@@ -15,70 +15,94 @@
           key: 1,
           name: '首页banner广告去除',
           rules: {
-            matches: '[id=\"com.bsy.hz:id/iv_ad_close\"]'
+            matches: '[id=\\\"com.bsy.hz:id/iv_ad_close\\\"]',
+            fastQuery: false
           }
         },
         {
           key: 2,
           name: '继续播放-自动点击',
           rules: {
-            matches: '[id=\"com.bsy.hz:id/notify_ok_tv\"]'
+            matches: '[id=\\\"com.bsy.hz:id/notify_ok_tv\\\"]',
+            fastQuery: false
           }
         },
         {
           key: 3,
           name: '搜索页面顶部的banner广告跳过',
           rules: {
-            matches: '[id=\"com.bsy.hz:id/unified_ad_close\"]'
+            matches: '[id=\\\"com.bsy.hz:id/unified_ad_close\\\"]',
+            fastQuery: false
           }
         },
         {
           key: 4,
           name: '视频播放时，倒计时结束跳过',
           rules: {
-            matches: '[id=\"com.bsy.hz:id/skip_tv\"]'
+            matches: '[id=\\\"com.bsy.hz:id/skip_tv\\\"]',
+            fastQuery: false
           }
         },
         {
           key: 5,
           name: '首页弹窗',
           rules: {
-            matches: '[id=\"com.bsy.hz:id/iv_close\"]'
+            matches: '[id=\\\"com.bsy.hz:id/iv_close\\\"]',
+            fastQuery: false
           }
         },
         {
           key: 6,
           name: '继续播放按钮点击',
           rules: {
-            matches: '[id=\"com.bsy.hz:id/notify_ok_tv\"]'
+            matches: '[id=\\\"com.bsy.hz:id/notify_ok_tv\\\"]',
+            fastQuery: false
           }
         },
         {
           key: 7,
           name: '播放页面广告跳过',
           rules: {
-            matches: '[id=\"com.bsy.hz:id/only_skip_tv\"]'
+            matches: '[id=\\\"com.bsy.hz:id/only_skip_tv\\\"]',
+            fastQuery: false
           }
         },
         {
           key: 8,
           name: '播放暂停广告跳过',
           rules: {
-            matches: '[id=\"com.bsy.hz:id/close_rl\"]'
+            matches: '[id=\\\"com.bsy.hz:id/close_rl\\\"]',
+            fastQuery: false
           }
         },
         {
           key: 9,
           name: '播放界面的去领取奖励',
           rules: {
-            matches: '[id=\"android:id/content\"] > FrameLayout > [desc=\"ad_content\"] > [desc=\"main_content\"] > [text=\"去领取奖励\"]'
+            matches: '[id=\\\"android:id/content\\\"] > FrameLayout > [desc=\\\"ad_content\\\"] > [desc=\\\"main_content\\\"] > [text=\\\"去领取奖励\\\"]',
+            fastQuery: false
           }
         },
         {
           key: 10,
           name: '播放界面的立即前往加速',
           rules: {
-            matches: '[id=\"android:id/content\"] > FrameLayout > FrameLayout > FrameLayout > FrameLayout > FrameLayout > FrameLayout > FrameLayout > FrameLayout > WebView > WebView > View > View > View > View > View > View > View > View > [text=\"立即前往加速\"]'
+            matches: '[id=\\\"android:id/content\\\"] > FrameLayout > FrameLayout > FrameLayout > FrameLayout > FrameLayout > FrameLayout > FrameLayout > FrameLayout > WebView > WebView > View > View > View > View > View > View > View > View > [text=\\\"立即前往加速\\\"]',
+            fastQuery: false
+          }
+        },
+        {
+          key: 11,
+          name: '来自快照的规则 19:44',
+          rules: {
+            matches: '[id=\"android:id/content\"] > LinearLayout > FrameLayout > FrameLayout > RelativeLayout > FrameLayout > FrameLayout > LinearLayout > FrameLayout'
+          }
+        },
+        {
+          key: 12,
+          name: '来自快照的规则 19:40',
+          rules: {
+            matches: '[id=\"9b74bb\"]'
           }
         }
       ]
